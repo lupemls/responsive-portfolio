@@ -5,27 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <style>
+        body{
+            background-image: url("assets/images/leather_1.png");
+        }
         @media screen and (min-width: 576px) {
-            body{
+            section{
                 width:75%;
                 margin: auto;
             }
         }
+
     </style>
 </head>
 
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom" style="background: #ffffff;">
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom mb-5" style="background: #ffffff;">
         <a class="navbar-brand px-4">
             <div class="d-inline p-3" style="background: #4aaaa5; color: #ffffff;">
                 Matthew Shepardson
@@ -41,7 +44,7 @@
                     <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link border-right border-left" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -50,22 +53,20 @@
             
         </div>
     </nav>
-    <section>
-        <div class="m-5 p-3 border clearfix">
-            <h2 class="border-bottom mb-3 pb-3" style="color: #4aaaa5;">About Me</h2>
-            <div class="float-left pr-3">
+    <section class="bg-white p-3 border">
+        <h2 class="border-bottom mb-3 pb-3" style="color: #4aaaa5;">About Me</h2>
+        <div class="row">
+            <div class="col-4">
                 <img src="assets/images/profile-pic-small.jpg" class="img-fluid" alt="Responsive image">
             </div>
-            <p>I am currently working in a customer service position at a local grocery store. I have just started learning HTML and CSS, and find it fun and challenging. I have gained a much deeper appreciation for good website design after seeing how much work goes into it.</p>
-            <p>I enjoy playing video games and arts and crafts, mainly for the progress that you can see by the end of it. It is very fulfilling looking back after spending some time on something and being able to see how much has changed since the start.</p>
+            <div class="col-8">
+                <p>I am currently working in a customer service position at a local grocery store. I have just started learning HTML and CSS, and find it fun and challenging. I have gained a much deeper appreciation for good website design after seeing how much work goes into it.</p>
+                <p>I enjoy playing video games and arts and crafts, mainly for the progress that you can see by the end of it. It is very fulfilling looking back after spending some time on something and being able to see how much has changed since the start.</p>
+            </div>
         </div>
+        
     </section>
 
-    <!-- footer -->
-    <!-- <div class="fixed-bottom" style="width: 100%">
-        <span class="border-top border-info bg-secondary text-white">Copyright &#169</span>
-
-    </div> -->
 
 </body>
 

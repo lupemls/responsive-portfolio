@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
+        body{
+            background-image: url("assets/images/leather_1.png");
+        }
         @media screen and (min-width: 576px) {
-            body{
+            section{
                 width:75%;
                 margin: auto;
             }
@@ -19,7 +22,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom" style="background: #ffffff;">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom mb-5" style="background: #ffffff;">
         <a class="navbar-brand px-4">
             <div class="d-inline p-3" style="background: #4aaaa5; color: #ffffff;">
                 Matthew Shepardson
@@ -35,7 +41,7 @@
                     <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link border-right border-left" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -45,7 +51,7 @@
         </div>
     </nav>
 
-    <div class="m-5 p-3 border">
+    <section class="p-3 border bg-white">
         <h2 class="border-bottom mb-3 pb-3" style="color: #4aaaa5;">Contact</h2>
         <div class="form-group">
             <label for="exampleInputName">Name</label>
@@ -60,7 +66,7 @@
             <input type="message" class="form-control" id="exampleInputMessage" aria-describedby="messageHelp">
         </div>
         <input class="btn btn-primary" type="submit" value="Submit">
-    </div>
+    </section>
 </body>
 
 </html>
